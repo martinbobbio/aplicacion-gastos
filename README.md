@@ -14,6 +14,6 @@ Inicio:
 Historial:
 
 ![Image of inicio](capturas/historial.jpg)<br />
-Preferencias:
+Preferencias:<br />
 
 ![Image of inicio](capturas/preferencias.jpg)<br />
