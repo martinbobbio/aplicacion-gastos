@@ -13,7 +13,7 @@ Inicio:
 ![Image of inicio](capturas/inicio.jpg)<br />
 Historial:
 
-![Image of inicio](capturas/historial.jpg<br />
+![Image of inicio](capturas/historial.jpg)<br />
 Preferencias:
 
 ![Image of inicio](capturas/preferencias.jpg)<br />
