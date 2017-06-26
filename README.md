@@ -10,10 +10,10 @@ Android Studio y Java
 
 Inicio:
 
-![Image of inicio](capturas/inicio.jpg)
+![Image of inicio](capturas/inicio.jpg)<br />
 Historial:
 
-![Image of inicio](capturas/historial.jpg)
+![Image of inicio](capturas/historial.jpg<br />
 Preferencias:
 
-![Image of inicio](capturas/preferencias.jpg)
+![Image of inicio](capturas/preferencias.jpg)<br />
