@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Toolbar -->
+    <string name="app_name">Dinero</string>
+    <string name="add_category">Agregar categoria</string>
+    <string name="add_payment">Agregar tipo de pago</string>
+    <string name="remove_category">Borrar categoria</string>
+    <string name="remove_speending">Borrar gasto</string>
+    <string name="remove_payment">Borrar tipo de pago</string>
+    <string name="history">Historial</string>
+    <string name="settings">Ajustes</string>
+    <string name="add">Agregar</string>
+    <string name="remove">Borrar</string>
+
+    <!-- Main Activity -->
+    <string name="spent_money">Dinero gastado:</string>
+    <string name="spent_money_var"> $</string>
+    <string name="filter_mounth">Filtrar mes</string>
+    <string name="label_monthly_budget">Presupuesto mensual: </string>
+    <string name="label_budget_spent">Presupuesto gastado</string>
+    <string name="title_category">Todas las categorias</string>
+
+
+    <!-- Pin Activity -->
+    <string name="pin_content_desc">PIN contenido</string>
+    <string name="pin_label_text">Seguridad</string>
+
+    <!-- Preferencias Activity -->
+    <string name="pref_checkbox_pin">Desactivar PIN</string>
+    <string name="pref_password_title">Contraseña</string>
+    <string name="pref_password_sumary">Cambiar la contraseña del PI</string>
+    <string name="pref_usuario_title">Usuario</string>
+    <string name="pref_usuario_sumary">Tu nombre de usuario</string>
+    <string name="pref_general">General</string>
+    <string name="pref_pin">Pin</string>
+    <string name="pref_app">Aplicacion</string>
+    <string name="pref_budget_title">Presupuesto</string>
+    <string name="pref_budget_sumary">Tu presupuesto mensual</string>
+
+    <!-- Activity alta -->
+    <string name="label_category">Categoria</string>
+    <string name="label_badget">Presupuesto</string>
+    <string name="button_add_category">Agregar categoria</string>
+    <string name="label_spending">Gasto</string>
+    <string name="label_payment">Tipo de pago</string>
+    <string name="label_description">Descripcion</string>
+    <string name="label_id">Id</string>
+    <string name="label_money">Dinero</string>
+    <string name="label_date">Fecha</string>
+    <string name="add_spending">Agregar gasto</string>
+    <string name="label_typePay">Tipo de pago</string>
+    <string name="add_typePay">Agregar tipo de pago</string>
+</resources>

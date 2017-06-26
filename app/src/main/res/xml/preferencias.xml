@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="category general"
+        android:title="@string/pref_general">
+
+        <EditTextPreference
+            android:key="usuario"
+            android:title="@string/pref_usuario_title"
+            android:summary="@string/pref_usuario_sumary"
+            android:selectAllOnFocus="true"
+            android:maxLength="12"
+            android:inputType="textWebEditText"
+            android:singleLine="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category application"
+        android:title="@string/pref_app">
+
+        <EditTextPreference
+            android:key="presupuesto"
+            android:title="@string/pref_budget_title"
+            android:summary="@string/pref_budget_sumary"
+            android:selectAllOnFocus="true"
+            android:maxLength="7"
+            android:inputType="number"
+            android:singleLine="true" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="category pin"
+        android:title="@string/pref_pin">
+
+        <EditTextPreference
+            android:key="pin_password"
+            android:title="@string/pref_password_title"
+            android:summary="@string/pref_password_sumary"
+            android:selectAllOnFocus="true"
+            android:maxLength="4"
+            android:inputType="textWebPassword"
+            android:singleLine="true" />
+
+        <CheckBoxPreference
+            android:key="pin"
+            android:title="@string/pref_checkbox_pin"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

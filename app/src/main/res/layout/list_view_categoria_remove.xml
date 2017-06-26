@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.04">
+
+        <ImageButton
+            android:id="@+id/boton_eliminar"
+            android:layout_width="69dp"
+            android:layout_height="90dp"
+            android:src="@drawable/icon_borrar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/categoria_categoria_remove"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:text="@string/label_category"
+                android:textColor="@color/grey"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/categoria_presupuesto_remove"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:text="@string/label_badget"
+                android:textColor="@color/grey"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/categoria_id_remove"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:text="@string/label_id"
+                android:textColor="@color/grey"
+                android:textSize="22sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

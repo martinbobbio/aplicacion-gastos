@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bobbio.martin.a00_agendagastos.HistorialActivity">
+
+    <ListView
+        android:id="@+id/lista_gastos"
+        android:layout_width="308dp"
+        android:layout_height="match_parent"
+        android:dividerHeight="7dp"
+        android:layout_below="@+id/etiqueta_historial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/etiqueta_historial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/history"
+        android:textColor="@color/accent_color"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/lista_gastos"
+        android:layout_alignStart="@+id/lista_gastos"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="13dp" />
+
+    <Spinner
+        android:id="@+id/spinner_meses1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/etiqueta_historial"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/etiqueta_filtro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filter_mounth"
+        android:layout_alignTop="@+id/etiqueta_historial"
+        android:layout_alignLeft="@+id/spinner_meses1"
+        android:layout_alignStart="@+id/spinner_meses1" />
+
+</RelativeLayout>

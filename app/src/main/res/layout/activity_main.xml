@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/color_primary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/gasto_mensual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/spent_money"
+        android:textColor="@color/color_pink"
+        android:textSize="25sp"
+        android:layout_below="@+id/spinner_meses"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/presupuesto_mensual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/label_monthly_budget"
+        android:textColor="@color/color_green"
+        android:textSize="18sp"
+        android:layout_below="@+id/gasto_mensual"
+        android:layout_alignLeft="@+id/gasto_mensual"
+        android:layout_alignStart="@+id/gasto_mensual" />
+
+    <TextView
+        android:id="@+id/gasto_mensual2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spent_money_var"
+        android:textSize="25sp"
+        android:textColor="@color/color_pink"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_alignBaseline="@+id/gasto_mensual"
+        android:layout_alignBottom="@+id/gasto_mensual"
+        android:layout_toRightOf="@+id/gasto_mensual"
+        android:layout_toEndOf="@+id/gasto_mensual" />
+
+    <TextView
+        android:id="@+id/presupuesto_mensual2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spent_money_var"
+        android:textColor="@color/color_green"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/presupuesto_mensual"
+        android:layout_alignBottom="@+id/presupuesto_mensual"
+        android:layout_toRightOf="@+id/presupuesto_mensual"
+        android:layout_toEndOf="@+id/presupuesto_mensual" />
+
+    <TextView
+        android:id="@+id/etiqueta_gasto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_category"
+        android:textColor="@color/accent_color"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/presupuesto_mensual"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/spinner_meses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etiqueta_filtro"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/gasto_mensual2"
+        android:layout_alignStart="@+id/gasto_mensual2" />
+
+    <TextView
+        android:id="@+id/etiqueta_filtro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filter_mounth"
+        android:textSize="19sp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignLeft="@+id/spinner_meses"
+        android:layout_alignStart="@+id/spinner_meses"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/etiqueta_gasto1"
+        android:layout_marginTop="22dp"
+        android:id="@+id/lista_categoria"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/filtro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="12dp"
+        android:textSize="19sp"
+        android:textColor="@color/color_black"
+        />
+
+
+</RelativeLayout>
+
+
+
+

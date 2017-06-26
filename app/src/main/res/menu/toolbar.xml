@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/add_category"
+        android:title="@string/add_category"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/remove_category"
+        android:title="@string/remove_category"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/add_payment"
+        android:title="@string/add_payment"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/remove_payment"
+        android:title="@string/remove_payment"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/add"
+        android:title="@string/add"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:orderInCategory="200"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/remove"
+        android:title="@string/remove"
+        android:icon="@drawable/ic_remove_black_24dp"
+        android:orderInCategory="200"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/history"
+        android:title="@string/history"
+        android:icon="@drawable/ic_visibility_black_24dp"
+        android:orderInCategory="200"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/settings"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:orderInCategory="200"
+        app:showAsAction="always" />
+
+</menu>
